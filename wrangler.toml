@@ -1,0 +1,6 @@
+name = "skill09-landing"
+compatibility_date = "2026-08-12"
+
+[site]
+bucket = "./public"
+include = ["**/*"]
