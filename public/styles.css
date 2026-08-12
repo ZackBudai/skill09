@@ -64,6 +64,8 @@ body{
   position:relative;
   z-index:1;
   max-width:48rem;
+  justify-self:center;
+  width:100%;
 }
 .kicker{
   margin:0 0 10px;
