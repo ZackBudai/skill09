@@ -51,8 +51,7 @@ body{
 }
 .hero{
   position:relative;
-  display:flex;
-  justify-content:center;
+  display:block;
   padding:clamp(20px, 3vw, 28px);
   border:1px solid var(--line);
   border-radius:0;
