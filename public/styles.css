@@ -62,11 +62,13 @@ body{
 .hero-copy{
   position:relative;
   z-index:1;
-  width:min(100%, 48rem);
+  width:fit-content;
+  max-width:100%;
+  margin-inline:auto;
   display:flex;
   flex-direction:column;
-  align-items:center;
-  text-align:center;
+  align-items:flex-start;
+  text-align:left;
 }
 .kicker{
   margin:0 0 10px;
@@ -93,7 +95,7 @@ body{
 .stack-list{
   display:flex;
   flex-wrap:wrap;
-  justify-content:center;
+  justify-content:flex-start;
   gap:8px;
   margin:18px 0 0;
   padding:0;
