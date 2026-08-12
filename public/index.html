@@ -5,52 +5,48 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Skill 09 — Software Application Development</title>
   <link rel="stylesheet" href="/styles.css">
-  <meta name="description" content="Skill 09 — Software Application Development (WorldSkills) landing page." />
+  <meta name="description" content="Skill 09 — Software Application Development competition stack." />
   <link rel="author" href="#">
 </head>
 <body>
   <main class="wrap">
     <header class="site-header">
+      <p class="eyebrow">WorldSkills Competition</p>
       <h1 class="brand">Skill 09</h1>
-      <p class="subtitle">Software Application Development — WorldSkills</p>
+      <p class="subtitle">Software Application Development</p>
     </header>
 
-    <section class="hero">
+    <section class="hero" aria-labelledby="stack-title">
       <div class="hero-graphic" aria-hidden="true">
-        <svg width="320" height="120" viewBox="0 0 320 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="0" y="0" width="320" height="120" fill="transparent" />
-          <g stroke="#bfbab0" stroke-width="1.6" stroke-linecap="round">
-            <path d="M12 100 L60 20 L120 92 L180 30 L260 100" opacity="0.85" />
-            <path d="M20 112 L140 112" opacity="0.5" />
-          </g>
+        <svg viewBox="0 0 340 340" role="presentation" focusable="false">
+          <defs>
+            <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#f0e6d8" />
+              <stop offset="100%" stop-color="#93a4ff" />
+            </linearGradient>
+          </defs>
+          <circle cx="170" cy="170" r="126" fill="none" stroke="url(#ring)" stroke-width="2.5" stroke-dasharray="4 8" />
+          <circle cx="170" cy="170" r="82" fill="none" stroke="#1d1c1a" stroke-opacity="0.18" stroke-width="1.5" />
+          <path d="M72 198C102 132 128 108 170 108C212 108 238 132 268 198" fill="none" stroke="#1d1c1a" stroke-opacity="0.65" stroke-width="3" stroke-linecap="round" />
+          <path d="M98 226H242" fill="none" stroke="#1d1c1a" stroke-opacity="0.35" stroke-width="1.5" stroke-linecap="round" />
         </svg>
       </div>
 
-      <h2 class="hero-title">Minimalist, architectural landing</h2>
-      <p class="lead">A clean, bone-white themed starting point for Skill 09 — curated resources, examples, and deployment on Cloudflare Workers.</p>
-      <nav class="quick-links">
-        <a href="#about">About</a>
-        <a href="#resources">Resources</a>
-        <a href="#deploy">Deploy</a>
-      </nav>
-    </section>
-
-    <section id="about" class="panel">
-      <h3>About</h3>
-      <p>This page is a minimal scaffold designed for fast edge deployment and clear presentation of Skill 09 content.</p>
-    </section>
-
-    <section id="resources" class="panel">
-      <h3>Resources</h3>
-      <ul>
-        <li>Curriculum outlines</li>
-        <li>Sample projects</li>
-        <li>Competition guidelines</li>
-      </ul>
+      <div class="hero-copy">
+        <p class="kicker">Competition tech stack</p>
+        <h2 id="stack-title" class="hero-title">HTML, CSS, JavaScript, Cloudflare Workers</h2>
+        <p class="lead">A compact landing page for Skill 09 with only the essentials for the competition brief.</p>
+        <ul class="stack-list" aria-label="Relevant technologies">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Cloudflare Workers</li>
+        </ul>
+      </div>
     </section>
 
     <footer class="site-footer">
-      <p>Deployed with Cloudflare Workers • Designed for Skill 09</p>
+      <p>Skill 09 Software Application Development</p>
     </footer>
   </main>
 </body>
