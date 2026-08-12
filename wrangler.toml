@@ -1,6 +1,7 @@
 name = "skill09-landing"
 compatibility_date = "2026-08-12"
+main = "src/index.js"
 
-[site]
-bucket = "./public"
-include = ["**/*"]
+[assets]
+directory = "./public"
+binding = "ASSETS"
